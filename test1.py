@@ -1,13 +1,10 @@
-# Python Program to calculate the square root
+### Python Program to calculate the product of two numbers
 
-print("Hello, good day, Py4Econ dfdf!")
+# To take the first input from the user
+num1 = float(input('Enter a number: '))
 
-# To take the input from the user
-num = float(input('Enter a number: '))
+# To take the second input from the user
+num2 = float(input('Enter a number: '))
 
 num_sqrt = num ** 0.5
 print('The square root of ' + str(num) + ' is ' + str(num_sqrt) + '.')
-
-print("my version")
-
-hi = "greeting"
